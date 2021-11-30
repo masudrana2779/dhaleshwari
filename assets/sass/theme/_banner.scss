@@ -152,8 +152,14 @@
               //border-left: 1px solid $brand;
               padding: 13px 45px;
               &:before {
-                background: $dark;
+                background: $brand;
                 right: auto;
+              }
+              &:hover {
+                color: $brand;
+                &:before {
+                  background: #fff;
+                }
               }
             }
           }
@@ -308,7 +314,7 @@
     opacity: .25;
   }
   .owl-prev:hover, .owl-next:hover {
-    color: $brand;
+    color: $white;
     opacity: 1;
   }
 }
@@ -660,7 +666,7 @@
   height: 30px;
   font-size: 30px;
   color: #FFF;
-  background-color: #506A85;
+  background-color: $brand;
   border: none;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;

@@ -197,13 +197,6 @@ button:focus {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
     .header.fixdHeader .navbar .logo a img {
       max-width: 150px; }
-    .header.fixdHeader .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
-      background: #2c2a37; }
-      .header.fixdHeader .navbar .mainMenu ul .nav-item .nav-link.getAQuote:hover {
-        color: #fff; }
-        .header.fixdHeader .navbar .mainMenu ul .nav-item .nav-link.getAQuote:hover:before {
-          background: #ef6b29;
-          width: 100%; }
   .header .navbar {
     padding: 0; }
     .header .navbar .logo a img {
@@ -273,45 +266,19 @@ button:focus {
             right: 0;
             width: 0;
             height: 1px;
-            background: #2c2a37;
+            background: #ef6b29;
             -webkit-transition: all 0.5s;
             -o-transition: all 0.5s;
             transition: all 0.5s;
             opacity: 0;
             z-index: 1; }
-          .header .navbar .mainMenu ul .nav-item .nav-link.active:before, .header .navbar .mainMenu ul .nav-item .nav-link:hover:before {
-            width: 100%;
-            left: 0;
-            right: auto;
-            opacity: 1; }
-          .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
-            background: #ef6b29;
-            border: 1px solid #ef6b29;
-            padding: 10px 20px;
-            -webkit-transition: all 0.5s;
-            -o-transition: all 0.5s;
-            transition: all 0.5s;
-            position: relative;
-            z-index: 1; }
-            .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote:before {
-              position: absolute;
-              content: "";
-              top: 0;
+          .header .navbar .mainMenu ul .nav-item .nav-link.active, .header .navbar .mainMenu ul .nav-item .nav-link:hover {
+            color: #ef6b29; }
+            .header .navbar .mainMenu ul .nav-item .nav-link.active:before, .header .navbar .mainMenu ul .nav-item .nav-link:hover:before {
+              width: 100%;
               left: 0;
-              width: 0%;
-              height: 100%;
-              background: #ef6b29;
-              -webkit-transition: all 0.5s;
-              -o-transition: all 0.5s;
-              transition: all 0.5s;
-              right: 0;
-              margin: 0 auto;
-              z-index: -1; }
-            .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote:hover {
-              color: #fff; }
-              .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote:hover:before {
-                background: #2c2a37;
-                width: 100%; }
+              right: auto;
+              opacity: 1; }
 
 @media (max-width: 1024px) {
   .header .navbar .logo a img {
@@ -455,8 +422,12 @@ button:focus {
           position: relative;
           padding: 13px 45px; }
           .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap .btnGlob:before {
-            background: #2c2a37;
+            background: #ef6b29;
             right: auto; }
+          .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap .btnGlob:hover {
+            color: #ef6b29; }
+            .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap .btnGlob:hover:before {
+              background: #fff; }
 
 .pl0 {
   padding-left: 0 !important; }
@@ -564,7 +535,7 @@ button:focus {
   opacity: .25; }
 
 .owl-carousel:hover .owl-prev:hover, .owl-carousel:hover .owl-next:hover {
-  color: #ef6b29;
+  color: #fff;
   opacity: 1; }
 
 .owl-outer-nav:after {
@@ -830,7 +801,7 @@ button:focus {
   height: 30px;
   font-size: 30px;
   color: #FFF;
-  background-color: #506A85;
+  background-color: #ef6b29;
   border: none;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -918,11 +889,12 @@ button:focus {
   content: "";
   top: 0;
   left: 0;
-  background-image: -webkit-linear-gradient(10deg, #fad027 70%, transparent 30%);
-  background-image: -o-linear-gradient(10deg, #fad027 70%, transparent 30%);
-  background-image: linear-gradient(80deg, #fad027 70%, transparent 30%);
+  background-image: -webkit-linear-gradient(10deg, #ef6b29 70%, transparent 30%);
+  background-image: -o-linear-gradient(10deg, #ef6b29 70%, transparent 30%);
+  background-image: linear-gradient(80deg, #ef6b29 70%, transparent 30%);
   height: 100%;
   width: 270px;
+  opacity: 0.7;
   z-index: -1; }
 
 .about_us .about_img_wrap .about_img {
